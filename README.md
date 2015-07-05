@@ -11,5 +11,5 @@ image-util
 ```
 resolvers += "Mt.sito Maven Repository" at "http://mt-sito.github.com/mvn-repo"
 
-libraryDependencies += "com.github.mt_sito" %% "image-util" % "1.0.2"
+libraryDependencies += "com.github.mt_sito" %% "image-util" % "1.0.3"
 ```
