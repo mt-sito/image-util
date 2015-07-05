@@ -27,7 +27,7 @@ object Trim {
 		val (sw, sh) = (image.getWidth, image.getHeight)
 		val dw = if (width == -1) sw else width
 		val dh = if (height == -1) sh else height
-		if (dw == sw && dh == dh) return image
+		if (dw == sw && dh == sh) return image
 
 		val x = if (sw <= dw) 0
 		else {
