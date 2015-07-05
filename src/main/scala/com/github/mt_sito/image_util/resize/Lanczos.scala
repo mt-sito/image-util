@@ -9,7 +9,7 @@ import scala.math.{Pi, abs, sin, sqrt}
 /**
  * Lanczos 拡大縮小クラス。
  */
-protected class Lanczos(maxDistance: Int) extends ImageResize {
+class Lanczos(maxDistance: Int) extends ImageResize {
 	/**
 	 * 重みクラス。
 	 *
