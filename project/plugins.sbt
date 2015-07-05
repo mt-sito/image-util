@@ -1,1 +1,1 @@
-addSbtPlugin("org.ensime" % "ensime-sbt-cmd" % "0.1.4")
+addSbtPlugin("org.ensime" % "ensime-sbt" % "0.1.6")
