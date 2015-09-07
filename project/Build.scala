@@ -6,7 +6,7 @@ object ApplicationBuild extends Build {
 	val appName = "image-util"
 	val appVersion = "1.0.4"
 	val appOrganization = "com.github.mt_sito"
-	val buildScalaVersion = "2.11.4"
+	val buildScalaVersion = "2.11.7"
 
 	lazy val root = Project(id = appName,
 		base = file("."),
@@ -23,7 +23,7 @@ object ApplicationBuild extends Build {
 
 			crossScalaVersions := Seq(
 				"2.10.4",
-				"2.11.4"
+				"2.11.7"
 			),
 
 			libraryDependencies <+= scalaVersion(v => v match {
