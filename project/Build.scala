@@ -4,7 +4,7 @@ import Keys._
 
 object ApplicationBuild extends Build {
 	val appName = "image-util"
-	val appVersion = "1.1.0"
+	val appVersion = "1.1.1"
 	val appOrganization = "com.github.mt_sito"
 	val buildScalaVersion = "2.11.7"
 
