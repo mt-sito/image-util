@@ -49,7 +49,6 @@ class Lanczos(maxDistance: Int) extends ImageResize {
 		val destImage = new BufferedImage(dw, dh, image.getType())
 		val totalWeight = filter.totalWeight
 		val colors = image.getRGB(0, 0, sw, sh, null, 0, sw)
-		println("Lanczos init: " + (System.nanoTime - start) / 1000000.0 + "ms")
 
 		for (dy <- 0 until dh; dx <- 0 until dw) {
 			var dr = 0.0
