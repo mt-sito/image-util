@@ -13,3 +13,7 @@ resolvers += "Mt.sito Maven Repository" at "http://mt-sito.github.com/mvn-repo"
 
 libraryDependencies += "com.github.mt_sito" %% "image-util" % "1.1.0"
 ```
+# 機能
+* 拡大縮小
+* トリム
+* 回転
